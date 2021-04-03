@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E44AF5B8-0404-4043-A15A-2F346E17CE30}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>IsUnique</RootNamespace>
-    <AssemblyName>IsUnique</AssemblyName>
+    <RootNamespace>IsUnique.Console</RootNamespace>
+    <AssemblyName>IsUnique.Console</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProcessString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

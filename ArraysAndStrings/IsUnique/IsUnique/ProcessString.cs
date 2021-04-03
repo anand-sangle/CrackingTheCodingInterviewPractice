@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace IsUnique.Console
 {
-    class Program
+    public class ProcessString
     {
-        static void Main(string[] args)
+        public bool HasDuplicates(string input)
         {
+            return true;
         }
     }
 }
